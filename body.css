@@ -1,0 +1,72 @@
+
+#head_box_left{
+  float: left;
+	background-image: url("head_img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: center;
+  background-size: contain;
+  background-color: grey;
+  width: 50%;
+  height: 720px;
+}
+
+#head_box_right{
+  position: relative;
+  left: 15px;
+  top: 20px;
+  font-size: 50px;
+  font-family: serif;
+  font-style: oblique;
+  color: grey;
+  font-stretch: 100%;
+  float: right;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+  width: 50%;
+  height: 720px;
+}
+.service_box_left{
+  margin: 20px;
+  font-family: serif;
+  font-style: oblique;
+  float: left;
+  position: relative;
+  width: 45%;
+  height: 512px;
+  background-color: : white;
+
+}
+
+.service_box_left h3 {
+  color: black;
+  font-size: 40px;
+
+}
+.service_box_left p {
+  font-size: 30px;
+  color: grey;
+}
+
+#service_box_right{
+  float: right;
+  position: relative;
+  top: 2px;
+  width: 50%;
+  background-image: url("service_img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: center;
+  background-size: contain;
+  background-color: grey;
+  height: 512px;
+}
+
+
+@media screen and (max-width: 750px) {
+  div#head_box_right, div.service_box_left, div.service_box_left h3 p,  div#service_box_right ,div#head_box_left{
+    width: 100%;
+    height: 270px;
+  }
+}
