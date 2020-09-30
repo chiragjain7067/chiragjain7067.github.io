@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang ="en-US">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<link rel="stylesheet" type="text/css" href="css\menu.css">
+	<script src="js\menuicon.js"></script>
+</head>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+	<div id="menu">
+		<h id="logo">PetVets</h>
+		<p class="logo_line">We care for your concern.</p>
+		<div class="topnav" id="myTopnav">
+	<a href="authentication.html">LogIn/SignUp</a>		
+  	<a href="about.html">About</a>
+	<a href="contact.html">Contact</a>
+	<a href="Services.html">Services</a>
+	<a href="index.html">Home</a>
+	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+		</div>
+</div>
+
+<div class="about-section">
+  <h1>About Us </h1>
+  <p>Welcome to PetVets! PetVets  main aim is to provide service to all the pets in need or in extreme emergencey . Our love for pets and a common goal to help improve pet's lives in our wonderful city and surrounding areas.</p>
+  <p>The world-class care you’ve always wanted for your pet is finally here.</p>
+</div>
+<h2 style="text-align:center"></h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="css/pett.jpg" alt="Jane" style="width:100%">
+      </div>
+   
