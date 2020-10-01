@@ -1,4 +1,7 @@
-
+a{
+	text-decoration: none;
+	color: black;
+}
 #head_box_left{
   float: left;
 	background-image: url("head_img.jpg");
